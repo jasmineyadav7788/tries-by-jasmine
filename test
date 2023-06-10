@@ -1,0 +1,6 @@
+@Test
+public void givenATrie_WhenAddingElements_ThenTrieNotEmpty() {
+    Trie trie = createTrie();
+
+    assertFalse(trie.isEmpty());
+}
